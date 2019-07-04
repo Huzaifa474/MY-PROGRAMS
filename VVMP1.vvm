@@ -1,0 +1,18 @@
+in
+sto 20
+in
+sto 21
+lda 20
+sub 21
+brp 09
+lda 20
+add 21
+sto 22
+out
+br 16
+lda 20
+sub 21
+sto 23
+out 
+hlt
+
